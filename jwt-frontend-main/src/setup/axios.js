@@ -2,7 +2,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 // Set config defaults when creating the instance
 const instance = axios.create({
-  baseURL: "http://localhost:8080",
+  baseURL: "http://13.54.100.123:8080/",
 });
 
 //use cookie for browser
